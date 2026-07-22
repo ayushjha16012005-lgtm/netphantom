@@ -41,31 +41,6 @@ Each of those files is self-contained, heavily commented at the top explaining *
   - **Level 10 — The Escape Countdown (Dynamic Programming):** build a coin-change-style DP table cell by cell to disarm a countdown with the fewest charges
   - **Level 11 — The Final Debrief (Quiz Game):** a straight multiple-choice quiz covering every concept just breached, with live score calculation and a final result screen — this level exists to satisfy a standalone "quiz game" requirement on its own
 
-## Run it locally
-```bash
-npm install
-npm run dev
-```
-Then open the printed local URL (usually `http://localhost:5173`).
-
-## Build for production
-```bash
-npm run build
-npm run preview   # optional: preview the production build locally
-```
-This outputs a static site into `dist/`.
-
-## Deploy to Netlify
-This repo already includes `netlify.toml` with the build command and publish directory set up, so:
-
-1. Push this project to a new GitHub repo (e.g. `netphantom-breach-the-grid`).
-2. In Netlify: **Add new site → Import an existing project → connect the repo.**
-3. Netlify will auto-detect the settings from `netlify.toml`:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-4. Deploy — you'll get a live `*.netlify.app` URL, just like `cryptoknightaj.netlify.app`.
-
-Or deploy instantly without Git, using Netlify Drop: run `npm run build` locally and drag the resulting `dist/` folder onto https://app.netlify.com/drop.
 
 ## Project structure
 ```
