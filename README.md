@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/30240160/README.md)
-# NetPhantom — Breach the Grid
+# NetPhantom — Breach tre Grid
 
 A dynamic, playable, deployable web game (React + Vite) built for the Employability Skill Development Lab, in the same spirit as my earlier project **CryptoKnight** — but a different game, a different theme, and a different name, ready for its own GitHub repo and Netlify deployment.
 
